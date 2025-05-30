@@ -1,0 +1,15 @@
+:root {
+    /* main font */
+    --ff: "Kumbh Sans", sans-serif;
+    --fs: 1.125rem; /* 18px */
+
+}
+
+/* custom css */
+
+.main-font {
+    font-style: normal;
+    font-weight: 700;
+    font-size: ;
+}
+
