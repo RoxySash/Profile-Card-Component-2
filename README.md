@@ -25,7 +25,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Snip of View](./images/Prior%20to%20learning%20the%20correct%20way%20to%20apply%20bg.png)
 ![Snip of Desktop View](./images/Adjusted%20correct%20bg%20css.png)
 
 

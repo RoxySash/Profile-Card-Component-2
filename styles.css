@@ -28,7 +28,7 @@ body {
   background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: top 200% left -40%, bottom 200% right -53%;
-background-attachment: fixed;
+
 
 
 }
@@ -179,3 +179,10 @@ h1 {
   font-size: var(--fs-medium);
 }
 
+@media (max-width: 768px) {
+  body {
+    background-position: top 200% left -40%, bottom 100% right -50%;
+    background-size: 500px, 500px;
+    background-position: fixed;
+  }
+}
