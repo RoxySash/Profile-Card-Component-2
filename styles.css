@@ -106,7 +106,7 @@ h6 {
 
 .container {
   background-color: white;
-  max-width: 20.3rem;
+  max-width: 325px;
   position: relative;
   border-radius: 10px;
   text-align: center;
@@ -179,10 +179,3 @@ h1 {
   font-size: var(--fs-medium);
 }
 
-@media (min-width: 48rem) {
-  body {
-    background-position: top 200% left -40%, bottom 100% right -50%;
-    background-size: 500px, 500px;
-    background-position: fixed;
-  }
-}

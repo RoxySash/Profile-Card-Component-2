@@ -48,6 +48,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 I learned two things while I did this challenge one was getting theprofile pic to be centered using left and right and z-index it was fun to do that but I worry I isnt the right way to do this. Next thing I learn is that when doing the background images it is quite complex as there is some debate about when to use css background-image or just adding the image. I confirmed that using the background-image is more  suitable if there is no semanitic meaning to the background image. its quite confusing if you ask me.
 
+Using the suggestions from frontend mentor broke my Css but I 
+
 To see how you can add code snippets, see below:
 
 ```html
