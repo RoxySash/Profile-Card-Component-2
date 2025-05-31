@@ -3,7 +3,9 @@
 /* ------------------- */
 
 /* 1. Use a more-intuitive box-sizing model */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -22,28 +24,40 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-	
+  font-family: var(--ff);
 }
 
 /* 5. Improve media defaults */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
 /* 6. Inherit fonts for form controls */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
 /* 7. Avoid text overflows */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
-
 /* remove animations for people who've turned them off */
-@media (prefers-reduced-motion: reduce) {  
+@media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
@@ -54,71 +68,106 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
 :root {
-    /* main font */
-    --ff: "Kumbh Sans", sans-serif;
-    --fs: 1.125rem; /* 18px */
-    --fs-small: 0.75px;
+  /* main font */
+  --ff: "Kumbh Sans", sans-serif;
+  --fs: 1.125rem; /* 18px */
+  --fs-small: 0.57rem;
+  --fs-medium: 0.87rem;
 
-
-    /* colors */
-    --dark-cyan: hsl(185, 75%, 39%); /* rename to background color*/
-    --very-dark-blue: hsl(229, 23%, 23%);
-    --grey-blue: hsl(227, 10%, 46%);
-    --dark-grey: hsl(0, 0%, 59%);
-
-
+  /* colors */
+  --dark-cyan: hsl(185, 75%, 39%); /* rename to background color*/
+  --very-dark-blue: hsl(229, 23%, 23%);
+  --grey-blue: hsl(227, 10%, 46%);
+  --dark-grey: hsl(0, 0%, 59%);
 }
 
 /* custom css */
 
 .main-font {
-    font-style: normal;
-    font-weight: 700;
-    font-size: var(--fs);
-    color: var(--very-dark-blue)
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--fs);
+  color: var(--very-dark-blue);
 }
 
 .smaller-font {
-    font-style: 300;
-    font-size: var(--fs-small);
+  font-style: 300;
+  font-size: var(--fs-small);
 }
 
 /* general css*/
 
 .container {
-    background-color: white;
-    max-width: 325px;
-    max-height: 374px;
-    position: relative;
-    border-radius: 10px;
-    text-align: center;
-    padding-bottom: 20px;
-    
+  background-color: white;
+  max-width: 325px;
+
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .profile-pic {
-    position: absolute;
-    border-radius: 50%;
-    border: 4px solid white;
-    top: 80px;
-    
-
+  position: absolute;
+  border-radius: 50%;
+  border: 4px solid white;
+  top: 80px;
 }
 
 .bg-image {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-bottom: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 70px;
 }
 .stats {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+  letter-spacing: 2px;
 }
 
 hr {
-    border-color: var(--dark-grey);
-    height: 0.5px;
+  border: none;
+  height: 0px;
+  border-top: 1px solid rgb(206, 204, 204);
+
+  padding-bottom: 27px;
+}
+
+p {
+  font-size: var(--fs-small);
+  font-weight: 400;
+  color: var(--grey-blue);
+  
+}
+
+h2 {
+  font-size: var(--fs);
+  color: var(--very-dark-blue);
+}
+
+h1 {
+  font-size: var(--fs);
+  font-weight: 700;
+  color: var(--very-dark-blue);
+}
+
+.age {
+  font-size: var(--fs);
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.city {
+  padding-bottom: 27px;
+  font-size: var(--fs-medium);
 }
