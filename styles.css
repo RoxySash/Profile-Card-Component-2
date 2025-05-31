@@ -17,6 +17,11 @@ body {
   line-height: 1.5;
   /* 4. Improve centering within parent */
   min-height: 100vh;
+  background-color: var(--dark-cyan);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 	
 }
 
@@ -54,6 +59,15 @@ p, h1, h2, h3, h4, h5, h6 {
     /* main font */
     --ff: "Kumbh Sans", sans-serif;
     --fs: 1.125rem; /* 18px */
+    --fs-small: 0.75px;
+
+
+    /* colors */
+    --dark-cyan: hsl(185, 75%, 39%); /* rename to background color*/
+    --very-dark-blue: hsl(229, 23%, 23%);
+    --grey-blue: hsl(227, 10%, 46%);
+    --dark-grey: hsl(0, 0%, 59%);
+
 
 }
 
@@ -63,5 +77,48 @@ p, h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     font-weight: 700;
     font-size: var(--fs);
+    color: var(--very-dark-blue)
 }
 
+.smaller-font {
+    font-style: 300;
+    font-size: var(--fs-small);
+}
+
+/* general css*/
+
+.container {
+    background-color: white;
+    max-width: 325px;
+    max-height: 374px;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.profile-pic {
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid white;
+    top: 80px;
+    
+
+}
+
+.bg-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 50px;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+hr {
+    border-color: var(--dark-grey);
+    height: 0.5px;
+}
