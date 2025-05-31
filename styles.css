@@ -25,7 +25,10 @@ body {
   justify-content: center;
   align-items: center;
   font-family: var(--ff);
-  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 200% left -40%, bottom 200% right -53%;
+background-attachment: fixed;
 
 
 }

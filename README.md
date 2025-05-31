@@ -26,13 +26,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 ![Snip of View](./images/Prior%20to%20learning%20the%20correct%20way%20to%20apply%20bg.png)
-
+![Snip of Desktop View](./images/Adjusted%20correct%20bg%20css.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Code Solution](https://github.com/RoxySash/Profile-Card-Component-2.git)
+- Live Site URL: [Github page live site](https://roxysash.github.io/Profile-Card-Component-2/)
 
 ## My process
 
@@ -61,7 +61,6 @@ To see how you can add code snippets, see below:
   border: 4px solid white;
   top: 80px;
   left: 107px;
-  
 }
 ```
 
@@ -73,9 +72,7 @@ Areas that need focus are background-images.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+- [Kevin Powell's Youtube Tutorial](https://youtu.be/3T_Jy1CqH9k?si=624nPxromYd3FX7t) - This helped me fix my background. Best css teacher out there I am so grateful to him.
 
 
 ## Author
