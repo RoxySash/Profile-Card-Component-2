@@ -67,10 +67,10 @@ h6 {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
   }
 }
 
@@ -98,7 +98,7 @@ h6 {
 }
 
 .smaller-font {
-  font-style: 300;
+  font-weight: 300;
   font-size: var(--fs-small);
 }
 
@@ -106,7 +106,7 @@ h6 {
 
 .container {
   background-color: white;
-  max-width: 325px;
+  max-width: 20.3rem;
   position: relative;
   border-radius: 10px;
   text-align: center;
@@ -179,7 +179,7 @@ h1 {
   font-size: var(--fs-medium);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 48rem) {
   body {
     background-position: top 200% left -40%, bottom 100% right -50%;
     background-size: 500px, 500px;
