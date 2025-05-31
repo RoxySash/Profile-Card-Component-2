@@ -53,7 +53,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned two things while I did this challenge one was getting theprofile pic to be centered using left and right and z-index it was fun to do that but I worry I isnt the right way to do this. Next thing I learn is that when doing the background images it is quite complex as there is some debate about when to use css background-image or just adding the image. I confirmed that using the background-image is more  suitable if there is no semanitic meaning to the background image. its quite confusing if you ask me.
 
 To see how you can add code snippets, see below:
 
@@ -61,8 +61,13 @@ To see how you can add code snippets, see below:
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.profile-pic {
+  position: absolute;
+  border-radius: 50%;
+  border: 4px solid white;
+  top: 80px;
+  left: 107px;
+  
 }
 ```
 

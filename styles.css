@@ -25,6 +25,9 @@ body {
   justify-content: center;
   align-items: center;
   font-family: var(--ff);
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+
+
 }
 
 /* 5. Improve media defaults */
@@ -101,7 +104,6 @@ h6 {
 .container {
   background-color: white;
   max-width: 325px;
-
   position: relative;
   border-radius: 10px;
   text-align: center;
@@ -113,6 +115,8 @@ h6 {
   border-radius: 50%;
   border: 4px solid white;
   top: 80px;
+  left: 107px;
+  
 }
 
 .bg-image {
@@ -133,7 +137,6 @@ hr {
   border: none;
   height: 0px;
   border-top: 1px solid rgb(206, 204, 204);
-
   padding-bottom: 27px;
 }
 
@@ -147,6 +150,7 @@ p {
 h2 {
   font-size: var(--fs);
   color: var(--very-dark-blue);
+  letter-spacing: normal;
 }
 
 h1 {
@@ -157,7 +161,7 @@ h1 {
 
 .age {
   font-size: var(--fs);
-  margin-left: 10px;
+  margin-left: 8px;
   font-style: normal;
   font-weight: 400;
 }
@@ -171,3 +175,4 @@ h1 {
   padding-bottom: 27px;
   font-size: var(--fs-medium);
 }
+
