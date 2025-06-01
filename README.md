@@ -46,14 +46,16 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-I learned two things while I did this challenge one was getting theprofile pic to be centered using left and right and z-index it was fun to do that but I worry I isnt the right way to do this. Next thing I learn is that when doing the background images it is quite complex as there is some debate about when to use css background-image or just adding the image. I confirmed that using the background-image is more  suitable if there is no semanitic meaning to the background image. its quite confusing if you ask me.
+I used figma to measure the distance of certain aspects on the given preview designs. I thelped me alot to match the size.
 
-Using the suggestions from frontend mentor broke my Css but I will fix css issues later I just want to have this completed. 
+I learned two things while I did this challenge, one was getting the profile picture to be centered using left, right values and z-index. It was fun to do this but I worry I wasn't the right way to do this. Next thing I learned is that when doing the background images is quite harder than I thought as there is some debate about when to use css background-image or just adding the image. I confirmed that using the background-image is more suitable if there is no semanitic meaning to the background image.
+
+Using the suggestions from frontend mentor broke my Css but I will fix css issues later I just want to have this completed. The suggestion was to change the px amounts on widths to rem or em. However this needs to be done from the beginning. I will work on solidifying my knowledge of working with rem and em instead of px for width on my next project.
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>Some HTML code I'm proud of because I made the profile was centered</h1>
 ```
 ```css
 .profile-pic {
