@@ -25,12 +25,10 @@ body {
   justify-content: center;
   align-items: center;
   font-family: var(--ff);
-  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top 200% left -40%, bottom 200% right -53%;
-
-
-
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 200% left -40%, bottom 200% right -53%;
 }
 
 /* 5. Improve media defaults */
@@ -119,7 +117,6 @@ h6 {
   border: 4px solid white;
   top: 80px;
   left: 107px;
-  
 }
 
 .bg-image {
@@ -147,7 +144,6 @@ p {
   font-size: var(--fs-small);
   font-weight: 400;
   color: var(--grey-blue);
-  
 }
 
 h2 {
@@ -178,4 +174,3 @@ h1 {
   padding-bottom: 27px;
   font-size: var(--fs-medium);
 }
-
